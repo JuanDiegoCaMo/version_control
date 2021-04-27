@@ -2,6 +2,16 @@
 
 using namespace std;
 
+class Puertos
+{
+private:
+    unsigned int pinLed;
+public:
+    Puertos(int _p1){
+        pinLed = _p1;
+    }
+};
+
 void impresion();
 
 int main()
